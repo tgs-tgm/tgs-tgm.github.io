@@ -59,16 +59,24 @@
     p:hover {
         color: aqua;
     }
+    #button_holder{
+        position: relative;
+        width: fit-content;
+        left: 50%;
+        transform: translateX(-50%);
+  }
 </style>
 
 <body>
     <h1 class="title">Untelented</h1>
     <!Games>
+    <div id="button_holder">
     <button class="button" onclick="window.location.href='https://thegamingsqueaker.github.io/eaglercraft/';">Minecraft</button>
     <button class="button" onclick="window.location.href='https://thegamingsqueaker.github.io/gba/';">Gameboy Emu</button>
     <button class="button" onclick="window.location.href='https://thegamingsqueaker.github.io/dsemu/';">DS Emu</button>
     <button class="button" onclick="window.location.href='https://thegamingsqueaker.github.io/emujs/';">JS Emu</button>
     <button class="button" onclick="window.location.href='https://thegamingsqueaker.github.io/pacman/';">Pac-Man</button>
+    </div>
     <p>Site made by KC, do not sell, this is free.</p>
 <script type="text/javascript" src="js/script.js"></script>
 </body>
