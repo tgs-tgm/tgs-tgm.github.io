@@ -46,6 +46,25 @@
     p:hover {
         color: aqua;
     }
+    .button2 {
+        background-color: #FF0000;
+        border: none;
+        color: white;
+        padding: 20px 20px;
+        text-align: center;
+        font-size: 20px;
+        margin: 4px 2px;
+        opacity: 0.6;
+        transition: 0.3s;
+        display: inline-block;
+        text-decoration: none;
+        cursor: pointer;
+        font-family: "Comic Sans MS", cursive, sans-serif;
+    }
+
+    .button2:hover {
+        opacity: 1
+    }
     #button_holder{
         position: relative;
         width: fit-content;
