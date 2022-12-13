@@ -1,81 +1,90 @@
+#container{
+  width: 100vw;
+  height: 100vw;
+  
+}
 
-    body {
-        background-color: #383737;
-    }
-    .button {
-        background-color: #033c82;
-        border: none;
-        color: white;
-        padding: 20px 20px;
-        text-align: center;
-        font-size: 20px;
-        margin: 4px 2px;
-        opacity: 0.6;
-        transition: 0.3s;
-        display: inline-block;
-        text-decoration: none;
-        cursor: pointer;
-        font-family: "Comic Sans MS", sans-serif;
-    }
+body {
+    background-color: #383737;
+}
 
-    .button:hover {
-        opacity: 1
-    }
+.button {
+    background-color: #033c82;
+    border: none;
+    color: white;
+    padding: 2vw 4vw;
+    text-align: center;
+    font-size: x-large;
+    margin: 4px 2px;
+    opacity: 0.6;
+    transition: 0.3s;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+    font-family: "Comic Sans MS", sans-serif;
+}
 
-    .title {
+.button:hover {
+    opacity: 1
+}
 
-        font-family: "Comic Sans MS", sans-serif;
-        font-size: 50px;
-        text-align: center;
-        color: white;
-        transition: 0.6s;
-    }
+.title {
 
-    .title:hover {
-        color: aqua;
-        opacity: 1;
-    }
+    font-family: "Comic Sans MS", sans-serif;
+    font-size: 7vw;
+    text-align: center;
+    color: white;
+    transition: 0.6s;
+}
 
-    p {
-        color: white;
-        text-align: center;
-        margin: inherit;
-        transition: 0.5s;
-    }
+.title:hover {
+    color: aqua;
+    opacity: 1;
+}
 
-    p:hover {
-        color: aqua;
-    }
-    .button2 {
-        background-color: #FF0000;
-        border: none;
-        color: white;
-        padding: 20px 20px;
-        text-align: center;
-        font-size: 20px;
-        margin: 4px 2px;
-        opacity: 0.6;
-        transition: 0.3s;
-        display: inline-block;
-        text-decoration: none;
-        cursor: pointer;
-        font-family: "Comic Sans MS", sans-serif;
-    }
+p {
+    color: white;
+    text-align: center;
+    text-size: 1vw;
+    margin: inherit;
+    transition: 0.5s;
+}
 
-    .button2:hover {
-        opacity: 1
-    }
-    .footer{
-       position: fixed;     
-       text-align: center;    
-       bottom: 0px; 
-       width: 100%;
+p:hover {
+    color: aqua;
+}
+
+.button2 {
+    background-color: #FF0000;
+    border: none;
+    color: white;
+    padding: 20px 20px;
+    text-align: center;
+    font-size: 20px;
+    margin: 4px 2px;
+    opacity: 0.6;
+    transition: 0.3s;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+    font-family: "Comic Sans MS", sans-serif;
+}
+
+.button2:hover {
+    opacity: 1
+}
+
+.footer {
+    position: fixed;
+    text-align: center;
+    bottom: 0px;
+    width: 100%;
 
 }
-    #button_holder{
-        position: relative;
-        width: fit-content;
-        left: 50%;
-        transform: translateX(-50%);
-  }
 
+#button_holder {
+    position: relative;
+    width: fit-content;
+    left: 50%;
+    transform: translateX(-50%);
+}
