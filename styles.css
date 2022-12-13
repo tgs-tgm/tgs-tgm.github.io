@@ -15,7 +15,7 @@
         display: inline-block;
         text-decoration: none;
         cursor: pointer;
-        font-family: "Comic Sans MS", cursive, sans-serif;
+        font-family: "Comic Sans MS", sans-serif;
     }
 
     .button:hover {
@@ -24,7 +24,7 @@
 
     .title {
 
-        font-family: "Comic Sans MS", cursive, sans-serif;
+        font-family: "Comic Sans MS", sans-serif;
         font-size: 50px;
         text-align: center;
         color: white;
@@ -59,7 +59,7 @@
         display: inline-block;
         text-decoration: none;
         cursor: pointer;
-        font-family: "Comic Sans MS", cursive, sans-serif;
+        font-family: "Comic Sans MS", sans-serif;
     }
 
     .button2:hover {
