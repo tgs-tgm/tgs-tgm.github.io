@@ -88,9 +88,9 @@ p:hover {
 }
 
 .info {
-    max-width: 65px;
+    max-width: 30px;
     height: auto;
-    position: absolute;
+    position: fixed;
     bottom: 0px;
     right: 0px;
 }
