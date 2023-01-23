@@ -116,6 +116,7 @@ p:hover {
   color: #818181;
   display: block;
   transition: 0.3s;
+  text-align: center;
 }
 
 /* When you mouse over the navigation links, change their color */
